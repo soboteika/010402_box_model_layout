@@ -1,0 +1,77 @@
+/*
+ * Script PHP ini adalah pendukung materi belajar di Channel Youtube Soboteika:
+ * Tutorial Box Model CSS dan Membuat Layout Web
+ * 
+ * Video bisa dilihat di: 
+ * https://youtu.be/idbTWkHPUgE
+*/
+
+body {
+    background-color: bisque;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.kotak {
+    border: 1px solid rgb(243, 61, 6);
+    border-radius: 10px
+}
+
+#container {
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 5px;
+}
+
+#atas {
+    width: 978px;
+    height: 80px;
+    background-color: white;
+    margin-bottom: 3px;
+    padding: 2px 10px;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    background-color: chartreuse;
+    position: absolute;
+    margin-left: 30px;
+    top: 0px;
+    left: 0px;
+}
+
+#navigasi {
+    width: 978px;
+    background-color: white;
+    padding: 2px 10px;
+    margin-bottom: 3px;
+}
+
+#tengah {
+    width: 1000px;
+    background-color: white;
+}
+
+#kiri {
+    width: 300px;
+    background-color: white;
+    float: left;
+    padding: 2px 10px;
+    margin-right: 8px;
+}
+
+#isi {
+    width: 648px;
+    float: left;
+    padding: 2px 10px;
+    margin-bottom: 3px;
+    background-color: white;
+}
+
+#bawah {
+    clear: both;
+    width: 978px;
+    background-color: white;
+    padding: 2px 10px;
+}
